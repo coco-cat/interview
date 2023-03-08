@@ -1,0 +1,123 @@
+.content{
+    width: 1440px;
+    height: 300px;
+    background-color: #2D2765;
+    background-image: url(../../assets/imgs/bg-1440.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: all .1s linear;
+}
+.txt{
+    position: absolute;
+    width: 312px;
+    height: 172px;
+    left: 372px;
+    top: 71px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/imgs/txt-1440.png);
+}
+.card{
+    position: absolute;
+    width: 534px;
+    height: 150px;
+    left: 846px;
+    top: 97px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../assets/imgs/card-1440.png);
+}
+
+.countdown{
+    font-size: 12px;
+    position: absolute;
+    width: 167px;
+    height: 23px;
+    left: 1213px;
+    top: 49px;
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.timeitem{
+    width: 23px;
+    height: 23px;
+    line-height: 22px;
+    background: #D7D4FC;
+    font-style: normal;
+    font-weight: 600;
+    color: #2D2765;
+    margin: 0 3px;
+}
+
+.button{
+    position: absolute;
+    width: 206px;
+    height: 32px;
+    left: 182px;
+    top: 98px;
+    /* ¡Lo quiero! */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all .1s linear;
+    /* background: #fff; */
+
+}
+@media screen and (max-width: 768px) {
+    .content{
+        width: 768px;
+        height: 817px;
+        background-image: url(../../assets/imgs/bg-768.png);
+    }
+    .txt{
+        width: 426px;
+        height: 370px;
+        left: 60px;
+        top: 66px;
+        background-image: url(../../assets/imgs/txt-768.png);
+    }
+    .card{
+        width: 648px;
+        height: 204px;
+        left: 60px;
+        top: 559px;
+        background-image: url(../../assets/imgs/card-768.png);
+    }
+    .countdown{
+        width: 239px;
+        height: 35px;
+        left: 60px;
+        top: 492px;
+        justify-content: flex-start;
+        font-size: 18px;
+        line-height: 33px;
+    }
+    .timeitem{
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .button{
+        position: absolute;
+        width: 334.51px;
+        height: 54px;
+        left: 210px;
+        top: 126px;
+        font-size: 24px;
+        line-height: 54px;
+
+    }
+}
+
+
